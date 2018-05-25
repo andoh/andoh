@@ -3,7 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'cat /home/ando/GIT/README.md'
+        sh '''cd /home/ando/SportID/sportid
+cap starg8 deploy
+'''
       }
     }
   }

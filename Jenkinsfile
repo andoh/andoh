@@ -6,7 +6,7 @@ pipeline {
       steps {
         sh '''whoami;
 cd /home/ando/SportID/sportidfront;
-cap starg8 deploy;
+cap starg8 deploy --trace;
 '''
       }
     }

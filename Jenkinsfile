@@ -4,7 +4,11 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        sh 'pwd'
+        sh '''#!bin/sh
+pwd;
+cd /home/;
+ls -la;
+'''
       }
     }
   }

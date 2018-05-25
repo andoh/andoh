@@ -6,8 +6,8 @@ pipeline {
       steps {
         sh '''whoami;
 cd /home/jenkins/sportidfront;
-cap starg8 deploy --trace;
-'''
+ssh starg8.com;
+ls -la;'''
       }
     }
   }

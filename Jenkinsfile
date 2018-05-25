@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         sh '''whoami;
-cd /home/ando/SportID/sportidfront;
+cd /home/jenkins/sportidfront;
 cap starg8 deploy --trace;
 '''
       }

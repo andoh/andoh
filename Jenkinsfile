@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'cat /home/andoh/GIT/README.md'
+        sh 'cat /home/ando/GIT/README.md'
       }
     }
   }

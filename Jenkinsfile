@@ -9,6 +9,7 @@ pipeline {
 pwd'''
         }
 
+        sh 'pwd'
       }
     }
   }

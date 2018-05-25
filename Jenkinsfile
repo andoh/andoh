@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        sh '''ps;
+        sh '''whoami;
 cd /home/ando/SportID/sportidfront;
 cap starg8 deploy;
 '''

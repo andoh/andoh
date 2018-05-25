@@ -4,8 +4,8 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        ws(dir: '/home/ando/SportID/sportidback') {
-          sh 'cap starg8 deploy'
+        ws(dir: '/home/ando/SportID/sportidback/') {
+          sh 'ls -la'
         }
 
       }

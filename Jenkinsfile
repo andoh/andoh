@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         sh '''pwd;
-cd /home/;
+cd /home/ando/SportID/sportid;
 ls -la;
 '''
       }

@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        ws(dir: '/home/ando/SportID/sportidback/') {
+        ws(dir: '/home/') {
           sh 'ls -la'
         }
 

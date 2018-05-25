@@ -5,7 +5,8 @@ pipeline {
       agent any
       steps {
         ws(dir: '/home/') {
-          sh 'ls -la'
+          sh '''#!/bin/sh
+pwd'''
         }
 
       }
